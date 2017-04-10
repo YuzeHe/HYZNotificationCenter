@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:HYZNotificationCenter.xcodeproj">
+      location = "self:/Users/Hyz/Desktop/YZNotificationCenter/YZNotificationCenter.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,6 +1,6 @@
 //
-//  HYZNotification.h
-//  HYZNotificationCenter
+//  YZNotification.h
+//  YZNotificationCenter
 //
 //  Created by heyuze on 16/2/25.
 //  Copyright © 2016年 hyz. All rights reserved.
@@ -10,7 +10,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface HYZNotification : NSObject
+@interface YZNotification : NSObject
 
 // 通知名
 @property (nonatomic, copy) NSString *name;

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		603123A61C80924700ECE4D1 /* HYZNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 603123A31C80924700ECE4D1 /* HYZNotification.m */; };
-		603123A71C80924700ECE4D1 /* HYZNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 603123A51C80924700ECE4D1 /* HYZNotificationCenter.m */; };
+		6053E7CF1E9B59DE005BA1DF /* YZNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 6053E7CC1E9B59DE005BA1DF /* YZNotification.m */; };
+		6053E7D01E9B59DE005BA1DF /* YZNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6053E7CE1E9B59DE005BA1DF /* YZNotificationCenter.m */; };
 		60889AA01C7DA65400A9B3E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60889A9F1C7DA65400A9B3E5 /* main.m */; };
 		60889AA31C7DA65400A9B3E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60889AA21C7DA65400A9B3E5 /* AppDelegate.m */; };
 		60889AA61C7DA65400A9B3E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60889AA51C7DA65400A9B3E5 /* ViewController.m */; };
@@ -18,11 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		603123A21C80924700ECE4D1 /* HYZNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYZNotification.h; sourceTree = "<group>"; };
-		603123A31C80924700ECE4D1 /* HYZNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYZNotification.m; sourceTree = "<group>"; };
-		603123A41C80924700ECE4D1 /* HYZNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYZNotificationCenter.h; sourceTree = "<group>"; };
-		603123A51C80924700ECE4D1 /* HYZNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYZNotificationCenter.m; sourceTree = "<group>"; };
-		60889A9B1C7DA65400A9B3E5 /* HYZNotificationCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYZNotificationCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6053E7CB1E9B59DE005BA1DF /* YZNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZNotification.h; sourceTree = "<group>"; };
+		6053E7CC1E9B59DE005BA1DF /* YZNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZNotification.m; sourceTree = "<group>"; };
+		6053E7CD1E9B59DE005BA1DF /* YZNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZNotificationCenter.h; sourceTree = "<group>"; };
+		6053E7CE1E9B59DE005BA1DF /* YZNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZNotificationCenter.m; sourceTree = "<group>"; };
+		60889A9B1C7DA65400A9B3E5 /* YZNotificationCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZNotificationCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60889A9F1C7DA65400A9B3E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60889AA11C7DA65400A9B3E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60889AA21C7DA65400A9B3E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,21 +45,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		603123A11C80924700ECE4D1 /* HYZNotificationCenter */ = {
+		6053E7CA1E9B59DE005BA1DF /* YZNotificationCenter */ = {
 			isa = PBXGroup;
 			children = (
-				603123A41C80924700ECE4D1 /* HYZNotificationCenter.h */,
-				603123A51C80924700ECE4D1 /* HYZNotificationCenter.m */,
-				603123A21C80924700ECE4D1 /* HYZNotification.h */,
-				603123A31C80924700ECE4D1 /* HYZNotification.m */,
+				6053E7CD1E9B59DE005BA1DF /* YZNotificationCenter.h */,
+				6053E7CE1E9B59DE005BA1DF /* YZNotificationCenter.m */,
+				6053E7CB1E9B59DE005BA1DF /* YZNotification.h */,
+				6053E7CC1E9B59DE005BA1DF /* YZNotification.m */,
 			);
-			path = HYZNotificationCenter;
+			path = YZNotificationCenter;
 			sourceTree = "<group>";
 		};
 		60889A921C7DA65400A9B3E5 = {
 			isa = PBXGroup;
 			children = (
-				60889A9D1C7DA65400A9B3E5 /* HYZNotificationCenter */,
+				60889A9D1C7DA65400A9B3E5 /* YZNotificationCenter */,
 				60889A9C1C7DA65400A9B3E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,21 +67,24 @@
 		60889A9C1C7DA65400A9B3E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60889A9B1C7DA65400A9B3E5 /* HYZNotificationCenter.app */,
+				60889A9B1C7DA65400A9B3E5 /* YZNotificationCenter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60889A9D1C7DA65400A9B3E5 /* HYZNotificationCenter */ = {
+		60889A9D1C7DA65400A9B3E5 /* YZNotificationCenter */ = {
 			isa = PBXGroup;
 			children = (
-				603123A11C80924700ECE4D1 /* HYZNotificationCenter */,
-				60889ABA1C7DA75C00A9B3E5 /* View */,
-				60889ABB1C7DA76A00A9B3E5 /* Controller */,
-				60889AB91C7DA72D00A9B3E5 /* Others */,
+				6053E7CA1E9B59DE005BA1DF /* YZNotificationCenter */,
+				60889AA11C7DA65400A9B3E5 /* AppDelegate.h */,
+				60889AA21C7DA65400A9B3E5 /* AppDelegate.m */,
+				60889AA41C7DA65400A9B3E5 /* ViewController.h */,
+				60889AA51C7DA65400A9B3E5 /* ViewController.m */,
+				60889AA71C7DA65400A9B3E5 /* Main.storyboard */,
+				60889AAC1C7DA65400A9B3E5 /* LaunchScreen.storyboard */,
 				60889A9E1C7DA65400A9B3E5 /* Supporting Files */,
 			);
-			path = HYZNotificationCenter;
+			path = YZNotificationCenter;
 			sourceTree = "<group>";
 		};
 		60889A9E1C7DA65400A9B3E5 /* Supporting Files */ = {
@@ -94,39 +97,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		60889AB91C7DA72D00A9B3E5 /* Others */ = {
-			isa = PBXGroup;
-			children = (
-				60889AA11C7DA65400A9B3E5 /* AppDelegate.h */,
-				60889AA21C7DA65400A9B3E5 /* AppDelegate.m */,
-			);
-			name = Others;
-			sourceTree = "<group>";
-		};
-		60889ABA1C7DA75C00A9B3E5 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				60889AA71C7DA65400A9B3E5 /* Main.storyboard */,
-				60889AAC1C7DA65400A9B3E5 /* LaunchScreen.storyboard */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		60889ABB1C7DA76A00A9B3E5 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				60889AA41C7DA65400A9B3E5 /* ViewController.h */,
-				60889AA51C7DA65400A9B3E5 /* ViewController.m */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		60889A9A1C7DA65400A9B3E5 /* HYZNotificationCenter */ = {
+		60889A9A1C7DA65400A9B3E5 /* YZNotificationCenter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60889AB21C7DA65400A9B3E5 /* Build configuration list for PBXNativeTarget "HYZNotificationCenter" */;
+			buildConfigurationList = 60889AB21C7DA65400A9B3E5 /* Build configuration list for PBXNativeTarget "YZNotificationCenter" */;
 			buildPhases = (
 				60889A971C7DA65400A9B3E5 /* Sources */,
 				60889A981C7DA65400A9B3E5 /* Frameworks */,
@@ -136,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = HYZNotificationCenter;
+			name = YZNotificationCenter;
 			productName = HYZNotificationCenter;
-			productReference = 60889A9B1C7DA65400A9B3E5 /* HYZNotificationCenter.app */;
+			productReference = 60889A9B1C7DA65400A9B3E5 /* YZNotificationCenter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -147,15 +123,16 @@
 		60889A931C7DA65400A9B3E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = hyz;
 				TargetAttributes = {
 					60889A9A1C7DA65400A9B3E5 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = J72447MAW3;
 					};
 				};
 			};
-			buildConfigurationList = 60889A961C7DA65400A9B3E5 /* Build configuration list for PBXProject "HYZNotificationCenter" */;
+			buildConfigurationList = 60889A961C7DA65400A9B3E5 /* Build configuration list for PBXProject "YZNotificationCenter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -168,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				60889A9A1C7DA65400A9B3E5 /* HYZNotificationCenter */,
+				60889A9A1C7DA65400A9B3E5 /* YZNotificationCenter */,
 			);
 		};
 /* End PBXProject section */
@@ -191,10 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6053E7D01E9B59DE005BA1DF /* YZNotificationCenter.m in Sources */,
 				60889AA61C7DA65400A9B3E5 /* ViewController.m in Sources */,
+				6053E7CF1E9B59DE005BA1DF /* YZNotification.m in Sources */,
 				60889AA31C7DA65400A9B3E5 /* AppDelegate.m in Sources */,
-				603123A61C80924700ECE4D1 /* HYZNotification.m in Sources */,
-				603123A71C80924700ECE4D1 /* HYZNotificationCenter.m in Sources */,
 				60889AA01C7DA65400A9B3E5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,8 +211,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -277,8 +256,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -305,9 +286,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = HYZNotificationCenter/Info.plist;
+				DEVELOPMENT_TEAM = J72447MAW3;
+				INFOPLIST_FILE = YZNotificationCenter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.hyz.iOS.HYZNotificationCenter;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.hyz.iOS.YZNotificationCenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -316,9 +298,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = HYZNotificationCenter/Info.plist;
+				DEVELOPMENT_TEAM = J72447MAW3;
+				INFOPLIST_FILE = YZNotificationCenter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.hyz.iOS.HYZNotificationCenter;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.hyz.iOS.YZNotificationCenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -326,7 +309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		60889A961C7DA65400A9B3E5 /* Build configuration list for PBXProject "HYZNotificationCenter" */ = {
+		60889A961C7DA65400A9B3E5 /* Build configuration list for PBXProject "YZNotificationCenter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60889AB01C7DA65400A9B3E5 /* Debug */,
@@ -335,7 +318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60889AB21C7DA65400A9B3E5 /* Build configuration list for PBXNativeTarget "HYZNotificationCenter" */ = {
+		60889AB21C7DA65400A9B3E5 /* Build configuration list for PBXNativeTarget "YZNotificationCenter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60889AB31C7DA65400A9B3E5 /* Debug */,

@@ -1,14 +1,14 @@
 //
-//  HYZNotificationCenter.m
-//  HYZNotificationCenter
+//  YZNotificationCenter.m
+//  YZNotificationCenter
 //
 //  Created by heyuze on 16/2/24.
 //  Copyright © 2016年 hyz. All rights reserved.
 //
 
 
-#import "HYZNotificationCenter.h"
-#import "HYZNotification.h"
+#import "YZNotificationCenter.h"
+#import "YZNotification.h"
 
 #import <objc/runtime.h>
 #import <objc/message.h>
@@ -19,7 +19,7 @@
 #pragma mark - 
 #pragma mark 类扩展
 
-@interface HYZNotificationCenter ()
+@interface YZNotificationCenter ()
 
 // 所有的观察者对象
 @property (nonatomic, strong) NSMutableArray *observers;
@@ -35,7 +35,7 @@
 #pragma mark -
 #pragma mark 类实现
 
-@implementation HYZNotificationCenter
+@implementation YZNotificationCenter
 //    [NSNotificationCenter defaultCenter]
 
 
@@ -62,16 +62,16 @@
 
 
 
-#pragma mark - HYZNotificationCenter实现方法
+#pragma mark - YZNotificationCenter实现方法
 
 // 单例实现
 + (instancetype)defaultCenter
 {
-    static HYZNotificationCenter *_notificationCenter;
+    static YZNotificationCenter *_notificationCenter;
     
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        _notificationCenter = [[HYZNotificationCenter alloc]init];
+        _notificationCenter = [[YZNotificationCenter alloc]init];
     });
     
     return _notificationCenter;
@@ -86,7 +86,7 @@
     // 遍历observerInfo，找到监听此通知的观察者
     for (NSMutableArray *notifications in self.observerInfo.allValues)
     {
-        for (HYZNotification *notification in notifications)
+        for (YZNotification *notification in notifications)
         {
             // 如果观察者监听此方法，使其强行调用KVO监听调用方法
             if (notification.name == notificationName)
@@ -118,7 +118,7 @@
     }
     
     // 创建通知，设置通知名和通知执行的方法
-    HYZNotification *notification = [[HYZNotification alloc]init];
+    YZNotification *notification = [[YZNotification alloc]init];
     notification.name = aName;
     notification.selectorStr = NSStringFromSelector(aSelector);
     notification.observer = observer;
@@ -163,7 +163,7 @@
     // 遍历observerInfo，如果有当前接收的notificationName，则执行对应的方法
     for (NSMutableArray *notifications in self.observerInfo.allValues)
     {
-        for (HYZNotification *notification in notifications)
+        for (YZNotification *notification in notifications)
         {
             if (notification.name == notificationName)
             {

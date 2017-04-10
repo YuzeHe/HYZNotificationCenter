@@ -1,6 +1,6 @@
 //
-//  HYZNotificationCenter.h
-//  HYZNotificationCenter
+//  YZNotificationCenter.h
+//  YZNotificationCenter
 //
 //  Created by heyuze on 16/2/24.
 //  Copyright © 2016年 hyz. All rights reserved.
@@ -10,7 +10,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface HYZNotificationCenter : NSObject
+@interface YZNotificationCenter : NSObject
 
 // 单例
 + (instancetype)defaultCenter;
